@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TechTrend Store</title>
+    <meta name="description" content="Shop all our latest tech trends. High-quality electronics and gadgets.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="page-products">
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">TechTrend</a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <form class="search-bar">
+                <input type="text" placeholder="Search products..." required>
+                <button type="submit" id="products-search-btn">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="section-title">All Products</h1>
+
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" id="prod-all-1">
+                    <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500"
+                        alt="Premium Wireless Headphones">
+                    <h3>Premium Wireless Headphones</h3>
+                    <p class="price">$149.99</p>
+                    <a href="product-details.html" class="btn" id="view-details-headphones">View Details</a>
+                    <br><br>
+                    <a href="#" class="btn-add-to-cart" id="add-card-headphones">Add to Cart</a>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card" id="prod-all-2">
+                    <img src="https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=500"
+                        alt="Smartphone Pro Max">
+                    <h3>Smartphone Pro Max</h3>
+                    <p class="price">$999.00</p>
+                    <a href="#" class="btn-add-to-cart" id="add-card-smartphone">Add to Cart</a>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card" id="prod-all-3">
+                    <img src="https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?w=500"
+                        alt="Ultra-Slim Laptop">
+                    <h3>Ultra-Slim Laptop</h3>
+                    <p class="price">$1299.00</p>
+                    <a href="#" class="btn-add-to-cart" id="add-card-laptop">Add to Cart</a>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card" id="prod-all-4">
+                    <img src="https://images.unsplash.com/photo-1572569503460-705ca081cc93?w=500"
+                        alt="Smart Watch Series X">
+                    <h3>Smart Watch Series X</h3>
+                    <p class="price">$299.00</p>
+                    <a href="#" class="btn-add-to-cart" id="add-card-smartwatch">Add to Cart</a>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card" id="prod-all-5">
+                    <img src="https://images.unsplash.com/photo-1606220838315-056192d5e927?w=500"
+                        alt="Gaming Console Next Gen">
+                    <h3>Gaming Console Next Gen</h3>
+                    <p class="price">$499.99</p>
+                    <a href="#" class="btn-add-to-cart" id="add-card-console">Add to Cart</a>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card" id="prod-all-6">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
+                        alt="Noise Cancelling Earbuds">
+                    <h3>Noise Cancelling Earbuds</h3>
+                    <p class="price">$129.99</p>
+                    <a href="#" class="btn-add-to-cart" id="add-card-earbuds">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#" id="social-facebook-products"><i class="fab fa-facebook-f">FB</i></a>
+            <a href="#" id="social-twitter-products"><i class="fab fa-twitter">TW</i></a>
+            <a href="#" id="social-instagram-products"><i class="fab fa-instagram">IG</i></a>
+        </div>
+        <p>&copy; 2026 TechTrend Store. Student Capstone Project.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
